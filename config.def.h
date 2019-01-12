@@ -134,8 +134,8 @@ unsigned int defaultunderline = 7;
  */
 unsigned int defaultfg = 257;
 unsigned int defaultbg = 256;
-static unsigned int defaultcs = 256;
-static unsigned int defaultrcs = 257;
+static unsigned int defaultcs = 7;
+static unsigned int defaultrcs = 15;
 
 /*
  * Default shape of cursor
@@ -157,7 +157,7 @@ static unsigned int rows = 24;
  * Default colour and shape of the mouse cursor
  */
 static unsigned int mouseshape = XC_xterm;
-static unsigned int mousefg = 15;
+static unsigned int mousefg = 7;
 static unsigned int mousebg = 0;
 
 /*
