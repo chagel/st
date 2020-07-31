@@ -5,9 +5,12 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-//static char *font = "Hack:style=bold;size=20:antialias=true:autohint=true";
-//static char *font = "mononoki:size=8:style=Regular:antialias=true:autohint:true";
 static char *font = "Monaco:size=6:style=Regular:antialias=true:autohint:true";
+static char *font2[] = {
+  //"Hack:style=bold;size=20:antialias=true:autohint=true",
+  " Apple Color Emoji:size=6:style=Regular:antialias=true:autohint:true",
+};
+
 static int borderpx = 10;
 
 /*
