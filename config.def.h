@@ -8,13 +8,14 @@
 
 #include "themes/mocha.h"
 
-static char *font = "Monaco:size=6:style=Regular:antialias=true:autohint:true";
+static char *font = "Monaco:pixelsize=18:style=Regular:antialias=true:autohint:true";
+/* static char *font = "JetBrains Mono:size=6:style=Regular:antialias=true:autohint:true"; */
 static char *font2[] = {
   //"Hack:style=bold;size=20:antialias=true:autohint=true",
   " Apple Color Emoji:size=6:style=Regular:antialias=true:autohint:true",
 };
 
-static int borderpx = 10;
+static int borderpx = 15;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -102,7 +103,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-unsigned int alpha = 0xcc;
+unsigned int alpha = 0xff;
 
 unsigned int defaultitalic = 7;
 unsigned int defaultunderline = 7;
